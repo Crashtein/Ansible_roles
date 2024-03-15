@@ -1,0 +1,6 @@
+- name: Install htop python3-pip
+  become: true
+  hosts: all
+  connection: local
+  roles:
+   - packages
